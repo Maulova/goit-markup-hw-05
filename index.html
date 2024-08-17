@@ -538,14 +538,16 @@
             </li>
           </ul>
         </div>
+
+        <!--  subscribe-form" -->
         <div class="wrapper-subscribe-form">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form">
-            <label for="subscribe">
-              <input type="text" id="subscribe" />
+            <label class="subscribe-label" for="subscribe">
+              <input class="input-subscribe-form" name="user-subscribe-email" type="email" placeholder="E-mail"  id="subscribe" />
             </label>
 
-            <button class="btn-subscribe" type="submit">
+            <button class="btn-subscribe" type="submit">Subscribe
               <svg class="subscribe-icons" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
@@ -555,7 +557,9 @@
       </div>
     </footer>
 
-    <div class="backdrop is-opend ">
+<!-- form  backdrop  -->
+    
+    <div class="backdrop   ">
       <!-- class=is-opend  -->
       <div class="modal">
         <button type="button" class="modal-close-btn">
