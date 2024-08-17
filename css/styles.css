@@ -689,6 +689,7 @@ img {
   resize: none;
   transition: border-color 300ms linear;
   margin-bottom: 14px;
+  display: block;
 }
 .modal-textarea::placeholder {
   font-size: 12px;
@@ -765,3 +766,12 @@ border: none;
 
  }
 /* #endregion backbrop-modal*/
+
+
+/*start-footer-form*/ 
+.wrapper-subscribe-form{ display: flex;
+justify-content: center;
+align-items: center;}
+
+
+/*end-footer-form*/
