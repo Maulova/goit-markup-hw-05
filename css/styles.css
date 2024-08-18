@@ -701,7 +701,7 @@ img {
   font-weight: 400;
   font-size: 12px;
 
-  line-height: 1.17;
+line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   /* оно не прозрачное по дефолту*/
